@@ -1,70 +1,159 @@
-# Getting Started with Create React App
+<div id="top"></div>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<div align="center">
+  <!-- logo -->
 
-## Available Scripts
+  <img src="src/assets/logo.svg" alt="Youthoob" width="120px">
+  <!-- title -->
+  <h2><b>Youthoob</b></h2>
+  <!-- tagline -->
+  <p>A clone of youtube</p>
 
-In the project directory, you can run:
+  <p  align="center">
+    <!-- CTA -->
+    ·
+    <a href="https://whischat.vercel.app/">View Demo</a>
+    ·
+  </p>
+</div>
+<hr>
 
-### `npm start`
+### **Decription**
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<p>Youtube is a clone of youtube but with great user-experience and user-interface.<br/>
+Youthoob make sure to keep away you from the gibberish & ads.
+<br/>
+*this project is still in production.
+</p>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+<hr>
 
-### `npm test`
+### **Stack**
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+ <table>
+     <tbody>
+  <tr>
+   <td align="Center" width="30%"> 
+<a href="https://www.w3.org/html/" target="_blank" rel="noreferrer" title="HTML5"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="50" height="40"/> </a>
+<br>HTML
+    </td>   
+   
+   <td align="Center" width="30%">
+        <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/javascript-colored.svg" width="36" height="36" alt="Javascript" /></a>
+    <br>JavaScript
+    </td> 
+  <td align="Center" width="30%">
+ <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer" title="CSS3"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="50" height="40"/> </a> 
+    <br>CSS
+    </td>   
+    <td align="Center" width="30%">  
+<a href="https://www.mongodb.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/mongodb-colored.svg" width="36" height="36" alt="MongoDB" /></a>
+    <br>MongoDB
+    </td>     
+      </tr>
+</tbody>
+  </table>
 
-### `npm run build`
+  <table>
+   <tbody>
+      <tr>
+     <td align="Center" width="30%">   
+ <a href="https://reactjs.org/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/react-colored.svg" width="36" height="36" alt="React" /></a>
+    <br>React
+    </td>  
+  <td align="Center" width="30%">      
+<a href="https://tailwindcss.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/tailwindcss-colored.svg" width="36" height="36" alt="TailwindCSS" /></a> 
+  <br>Tailwind CSS
+    </td>
+    <td align="Center" width="30%">      
+<a href="https://mui.com/" rel="noopener" target="_blank"><img width="36" src="https://github.com/mui/material-ui/blob/master/docs/public/static/logo.png?raw=true" alt="MUI logo"></a>
+  <br>Material UI
+    </td>
+    <td align="Center" width="30%">      
+<a href="https://rapidapi.com/" target="_blank" rel="noreferrer"><img src="https://avatars.githubusercontent.com/u/16919504?s=200&v=4" width="36" height="36" alt="Rapid API" /></a> 
+  <br>Rapid API
+    </td>
+          </tr>
+</tbody>
+  </table>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<hr>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### **Features**
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- fully responsive for alomst every width devices.
+  > [320px to 2000px]
+- search bar functionality to find relevent videos and channel.
+- almost have every functionality as same as youtube.
+  - searching for videos and channels.
+  - can create, edit, delete playlist, etc.
+- but, what makes youthoob different?
+  - algorithm based suggested videos.
+  - catergory based content filtering.
+  - have a rating algorithm to every video and channel to find which one is worth wathing.
+  - caterory tag on videos.
+  - also, dislike count on videos.
+- Animated & minimal UI.
+- Great user-experience.
+- use axios mehtod to fetch data from rapid api.
 
-### `npm run eject`
+<hr>
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### **Overview**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+|                                                        Desktop                                                         |                                                          Mobile                                                           |
+| :--------------------------------------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------------------------------------: |
+| <img width="1604" alt="" src="src/assets/preview/yt1.jpg"> | <img width="300" alt="" src="src/assets/preview/y3.jpg">  |
+| <img width="1604" alt="" src="src/assets/preview/yt2.jpg"> | <img width="300" alt="" src="src/assets/preview/y2.jpg"> |
+| <img width="1604" alt="" src="src/assets/preview/yt3.jpg">  | <img width="300" alt="" src="src/assets/preview/y1.jpg"> |
+| <img width="1604" alt="" src="src/assets/preview/yt4.jpg"> |  <img width="300" alt="" src="src/assets/preview/y4.jpg"> |
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+<hr>
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### **Getting Started**
 
-## Learn More
+To get a local copy up and running follow these simple steps.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+#### 👇🏽 **Prerequisites**
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Before installation, please make sure you have already installed the following tools:
 
-### Code Splitting
+- [Git](https://git-scm.com/downloads)
+- [NodeJs](https://nodejs.org/en/download/)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+#### 🛠️ **Installation**
 
-### Analyzing the Bundle Size
+1. Fork the project. Click on the fork icon in the top right to get started
+2. Clone the project, you can use the following command:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+   ```bash
+   git clone https://github.com/<your-github-username>/<project-name>
+   ```
 
-### Making a Progressive Web App
+3. Navigate to the project directory
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+   ```bash
+   cd <project-name>
+   ```
 
-### Advanced Configuration
+4. Install dependencies with `npm install`
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+   ```bash
+   npm install
+   ```
 
-### Deployment
+5. Run npm start in project root directory
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+   ```bash
+   npm run start
+   ```
 
-### `npm run build` fails to minify
+<p align="right">(<a href="#top">back to top</a>)</p>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<hr>
+
+### **Support**
+
+This project needs a star️ from you. Don't forget to leave a star🌟
+
+<p align="right">(<a href="#top">back to top</a>)</p>

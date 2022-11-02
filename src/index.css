@@ -1,13 +1,187 @@
+html,
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
+}
+* {
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+  color: black;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+::-webkit-scrollbar {
+  width: 0px;
+  height: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgb(114, 113, 113);
+  border-radius: 10px;
+  height: 200px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+.category-btn:hover {
+  background-color: #cccccc !important;
+  color: rgb(0, 0, 0) !important;
+}
+.interest-btn{
+  background-color: #1E1E1E ;
+  color: '#fff' ;
+}
+.interest-btn:hover {
+  background-color: #cccccc ;
+  color: rgb(0, 0, 0) ;
+}
+.active-interest-btn {
+  background-color: #721b1b;
+  color: rgb(0, 0, 0);
+}
+.react-player {
+  height: 77vh !important;
+  width: 100% !important;
+}
+
+.search-bar {
+  border: none;
+  outline: none;
+  width: 350px;
+}
+
+.category-btn {
+  text-transform: capitalize;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  cursor: pointer;
+  background: transparent;
+  outline: none;
+  border: none;
+  padding: 8px 15px;
+  margin: 10px 0px;
+  border-radius: 12px;
+  transition: all 0.2s ease;
+}
+.active-category-btn {
+  background-color: #e1e1e1 !important;
+  color: rgb(0, 0, 0) !important;
+  opacity: 1 !important;
+}
+.categoryContainer {
+  padding-bottom: 18px;
+}
+
+#categoryContainer::-webkit-scrollbar-thumb
+{
+  width: 1px;
+	background-color: #2D2D2E;
+  cursor: pointer;
+}
+.videoContainer {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  width: initial;
+}
+.channelart {
+  height: 200px;
+}
+.divider {
+  display: none;
+}
+@media screen and (max-width: 600px) {
+  .divider {
+    display: block;
+    margin: 24px 0 0 0;
+    width: 100%;
+    outline:none;
+  }
+  .videoContainer {
+    gap: 30px;
+  }
+  .channelart {
+    height: 100px;
+  }
+}
+@media screen and (max-width: 350px) {
+  .videoCard {
+    transform: scale(0.8);
+  }
+}
+@media screen and (max-width: 900px) {
+  .category-btn {
+    margin: 10px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .copyright {
+    display: none !important;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .scroll-horizontal {
+    overflow: auto !important;
+  }
+
+  .react-player {
+    height: 45vh !important;
+  }
+
+  .search-bar {
+    width: 200px;
+  }
+}
+
+@font-face {
+  font-family: "Wavehaus-28Thin";
+  src: local("Wavehaus-28Thin"),
+    url("./fonts/Wavehaus-28Thin.otf") format("truetype");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "Wavehaus-42Light";
+  src: local("Wavehaus-42Light"),
+    url("./fonts/Wavehaus-42Light.otf") format("truetype");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "Wavehaus-66Book";
+  src: local("Wavehaus-66Book"),
+    url("./fonts/Wavehaus-66Book.otf") format("truetype");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "Wavehaus-95SemiBold";
+  src: local("Wavehaus-95SemiBold"),
+    url("./fonts/Wavehaus-95SemiBold.otf") format("truetype");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "Wavehaus-128Bold";
+  src: local("Wavehaus-128Bold"),
+    url("./fonts/Wavehaus-128Bold.otf") format("truetype");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "Wavehaus-158ExtraBold";
+  src: local("Wavehaus-158ExtraBold"),
+    url("./fonts/Wavehaus-158ExtraBold.otf") format("truetype");
+  font-weight: bold;
+}
+
+body {
+  font-family: "Wavehaus-95SemiBold";
 }
